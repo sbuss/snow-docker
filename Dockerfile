@@ -22,3 +22,4 @@ RUN mkdir /etc/service/sdnsd
 ADD start-sdnsd /etc/service/sdnsd/run
 
 ADD 50-prep-iptables.sh /etc/my_init.d/
+ADD 50-prep-tun.sh /etc/my_init.d/
